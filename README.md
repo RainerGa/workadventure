@@ -20,16 +20,22 @@ Check out resources developed by the WorkAdventure community at [awesome-workadv
 
 ## Setting up a development environment
 
+System Requirements for workadventure without Jitsi
+
+10 GB Storage
+ 4 GB Memory (recommended)
+
 Install Docker.
 
 Run:
 
 ```
 cp .env.template .env
-docker-compose up -d
+sudo docker-compose up -d
 ```
-
 The environment will start.
+
+Note: Without "-d" you will see informations for debug the docker-compose process.
 
 You should now be able to browse to http://play.workadventure.localhost/ and see the application.
 You can view the dashboard at http://workadventure.localhost:8080/
